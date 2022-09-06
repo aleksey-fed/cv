@@ -16,3 +16,25 @@ menuItem.forEach(item => {
         document.body.classList.toggle('stop-scrolling');
     })
 })
+
+// back to top button 
+const backTopBtn = document.querySelector('.backToTop');
+
+function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        backTopBtn.style.display = 'block'; 
+    } else {
+        backTopBtn.style.display = 'none';
+    }
+}
+
+window.onscroll = function () {
+    scrollFunction();
+}
+
+backTopBtn.addEventListener('click', backToTop);
