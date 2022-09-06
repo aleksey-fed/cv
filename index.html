@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aleksey-portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+    
+      <!-- Welcome -->
+      <div class="header__wrapper">
+        <h1 class="visually-hidden">Personal information</h1>
+        
+        <div class="nav__wrapper">
+          <div class="logo">
+            <img class="logo__image" src="./assets/images/logo.png" alt="logo"><span class="logo__text">portfolio</span>
+          </div>
+          <nav class="nav">
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="#projects">Projects</a></li>
+              <li class="menu__item"><a class="menu__link" href="#tech">Technologies</a></li>
+              <li class="menu__item"><a class="menu__link" href="#aboutme">About Me</a></li>
+              <li class="menu__item"><a class="menu__link" href="#contacts">Contacts</a></li>
+            </ul>
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+        </div>
+
+        <div class="photo">
+          <img src="./assets/images/photo.png" width="120" height="120" alt="photo">
+        </div>
+        
+        <div class="info">
+          <p class="name">Aleksey Fedorchenko</p>
+          <p class="role">Junior Front-end Developer</p>
+        </div>
+
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a class="email icon" href="mailtofedorchenkoalexej@gmail.com">
+              <img src="./assets/icons/email.png" alt="email">
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a class="discord icon" href="https://discord.com/channels/@alexeij#5741"><img src="./assets/icons/discord.png" alt="discord"></a>
+          </li>
+          <li class="contacts__item">
+            <a class="telegram icon" href="https://t.me/fedorchenkoalexej"><img src="./assets/icons/telegram.png" alt="telegram"></a>
+          </li>
+          <li class="contacts__item">
+            <a class="github icon" href="https://github.com/aleksey-fed/"><img src="./assets/icons/github.png" alt="github"></a>
+          </li>
+        </ul>
+      </div> 
+    </div>
+  </header>
+  <main>
+    <!-- Projects  -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="projects__title title">Projects</h2>
+        <ul class="projects__list">
+          <li class="project__item">
+            <a class="project__link" href="https://rolling-scopes-school.github.io/aleksey-fed-JSFEPRESCHOOL/portfolio/">
+              <img class="project__image" src="./assets/images/portfolio.jpg" alt="Porfolio">
+            </a>
+            <h3 class="project__subtitle">Porfolio</h3>
+            <p class="project__description">Technologies: HTML, CSS, JavaScript.</p>
+          </li>
+          <li class="project__item">
+            <a class="project__link" href="https://rolling-scopes-school.github.io/aleksey-fed-JSFE2022Q1/shelter/pages/main/index.html">
+              <img class="project__image" src="./assets/images/shelter.jpg" alt="Porfolio">
+            </a>
+            <h3 class="project__subtitle">Shelter</h3>
+            <p class="project__description">Technologies: HTML, SCSS, JavaScript.</p>
+          </li>
+          <li class="project__item">
+            <a class="project__link" href="https://rolling-scopes-school.github.io/aleksey-fed-JSFE2021Q3/momentum/">
+              <img class="project__image" src="./assets/images/momentum.jpg" alt="Momentum">
+            </a>
+            <h3 class="project__subtitle">Momentum</h3>
+            <p class="project__description">Technologies: HTML, CSS, JavaScript.</p>
+          </li>
+          <li class="project__item">
+            <a class="project__link" href="https://rolling-scopes-school.github.io/aleksey-fed-JSFEPRESCHOOL/tic-tac-toe/">
+              <img class="project__image" src="./assets/images/tictactoe.jpg" alt="Tic-tac-toe">
+            </a>
+            <h3 class="project__subtitle">Tic-Tac-Toe</h3>
+            <p class="project__description">Technologies: HTML, CSS, JavaScript.</p>
+          </li>
+          
+          <li class="project__item">
+            <a class="project__link" href="https://rolling-scopes-school.github.io/aleksey-fed-JSFEPRESCHOOL/random-jokes/">
+              <img class="project__image" src="./assets/images/random-jokes.jpg" alt="Random jokes">
+            </a>
+            <h3 class="project__subtitle">Random Jokes</h3>
+            <p class="project__description">Technologies: HTML, CSS, JavaScript.</p>
+          </li>
+          <li class="project__item">
+            <a class="project__link" href="https://rolling-scopes-school.github.io/aleksey-fed-JSFEPRESCHOOL/audio-player/">
+              <img class="project__image" src="./assets/images/audio-player.jpg" alt="Audio player">
+            </a>
+            <h3 class="project__subtitle">Audio Player</h3>
+            <p class="project__description">Technologies: HTML, CSS, JavaScript.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Tech -->
+    <section class="tech" id="tech">
+      <div class="container">
+        <h2 class="tech__title title">Technologies</h2>
+        <ul class="tech__list">
+          <li class="tech__item">
+            <p class="item__title">Languages</p>
+            <ul class="items__list">
+              <li class="item html"></span> HTML</li>
+              <li class="item css">CSS</li>
+              <li class="item js">JavaScript</li>
+              <li class="item ts">TypeScript</li>
+            </ul>
+          </li>
+          <li class="tech__item">
+            <p class="item__title">Frontend</p>
+            <ul class="items__list">
+              <li class="item sass">SASS</li>
+              <li class="item bootstrap">Bootstrap</li>
+            </ul>
+          </li>
+        </ul>  
+      </div>  
+    </section>
+
+    <!-- About me -->
+    <section class="aboutme" id="aboutme">
+      <div class="container">
+        <h2 class="aboutme__title title">About Me</h2>
+        <p class="aboutme__text">I'm a Junior Front-end Developer. I'm interested in front-end development. I improve my skills and study new technologies. I want to find a team for a growth. I worked a long time in a game development company and have a great experience of working in a team, communicating with different departments, such as developers, testers, marketing and community managers.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer contacts" id="contacts">
+    <div class="container">
+      <h2 class="contacts__title title">Contacts</h2>
+      <div class="contacts__wrapper">
+        <div class="contact__item">
+          <p class="contact__subtitle">telegram</p>
+          <a class="contact__link" href="https://t.me/fedorchenkoalexej"><p class="contact__text">@fedorchenkoalexej</p></a>
+        </div>
+        <div class="contact__item">
+          <p class="contact__subtitle">email</p>
+          <a class="contact__link" href="mailto:fedorchenkoalexej@gmail.com"><p class="contact__text">fedorchenkoalexej@gmail.com</p></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a class="backToTop" href="#"></a>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
