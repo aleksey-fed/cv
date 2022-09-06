@@ -217,3 +217,89 @@ p {
   line-height: 20px;
   text-align: center;
 }
+
+/* Tech */
+
+.tech {
+  font-size: 18px;
+  background: #f6f6f6;
+  padding: 50px 0;
+}
+
+.tech__title {
+  text-align: center;
+}
+
+.tech .tech__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 60px;
+  list-style: none;
+}
+
+.tech__item {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.tech__item .item__title {
+  margin-bottom: 10px;
+
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.tech__item .items__list {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+  list-style: none;
+}
+
+.items__list .item {
+  width: 20%;
+  position: relative;
+  margin-left: 30px;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -25px;
+
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.html::before {
+  background-image: url('./../assets/icons/html-5.png');
+}
+
+.css::before {
+  background-image: url('./../assets/icons/css-3.png');
+}
+
+.js::before {
+  background-image: url('./../assets/icons/javascript.png');
+}
+
+.ts::before {
+  background-image: url('./../assets/icons/typescript.png');
+}
+
+.sass::before {
+  background-image: url('./../assets/icons/sass.png');
+}
+
+.bootstrap::before {
+  background-image: url('./../assets/icons/bootstrap.png');
+}
